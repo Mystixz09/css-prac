@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    margin: 0px;
+    font-family: roboto;
+}
+header{
+    background-color: #1f2937;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 18px;
+    gap: 100px;
+    padding: 20px 18% 100px 18%;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+    padding-inline-start: 0px;
+    gap: 18px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.logo{
+    font-size: 24px;
+    font-weight: 900;
+}
+.content{
+    display: flex;
+    gap: 30px;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+}
+.right h1{
+    font-size: 48px;
+}
+.right button{
+    font-size: 18px;
+    color: white;
+    background-color: #3882f6;
+    border-style: none;
+    width: 150px;
+    padding: 8px;
+    border-radius: 20px;
+}
+button:hover{
+    cursor: pointer;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.customers{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.customers p{
+    text-align: center;
+    color: #1f2937;
+
+}
+.title{
+    font-size: 36px;
+    font-weight: 800;
+}
+.card img{
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    object-fit:cover;
+}
+.card p{
+    width: 200px;
+}
+.cardcontainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.Quote{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #e5e7eb;
+    padding: 100px 18% 100px 18%;
+    gap: 10px;
+}
+.quote{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+}
+.author{
+    text-align: right;
+    font-weight: 600;
+    font-size: 20px;
+}
+.newsletter{
+    background-color: #3882f6;
+    display: flex;
+    margin: 100px 18% 100px 18%;
+    padding: 40px 60px;
+    border-radius: 20px;
+    justify-content: space-between;
+}
+.texts p{
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+}
+.texts p:first-child{
+    font-size: 24px;
+    font-weight: 700;
+}
+.newsletter button{
+    background-color: #3882f6;
+    color: white;
+    padding: 10px;
+    border: 2px white solid;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 10px;
+}
+footer{
+    background-color: #1f2937;
+    color: #e5e7eb;
+    padding: 30px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
